@@ -135,3 +135,15 @@ body {
   min-width: 300px;
   margin: 0px 40px;
 }
+
+/* contact */
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+/* footer */
+.footer-content {
+  margin-left: 20px;
+  text-align: left;
+}
