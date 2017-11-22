@@ -17,7 +17,7 @@ body {
   border-bottom: 1px solid seashell;
 }
 
-.logo {
+.logo img {
   padding-left: 10px;
   display: flex;
   align-items: center;
@@ -26,14 +26,19 @@ body {
 }
 
 .navigation {
-  padding-right: 10px;
+  padding-right: 30px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
 }
 
-.navlink .navlink a {
-  color: seashell;
+.navlink span {
+  display: inline-block;
+  padding: 0 20px;
   text-decoration: underline;
+}
+
+.navlink a {
+  color: seashell;
 }
