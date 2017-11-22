@@ -6,6 +6,14 @@ body {
   text-align: center;
 }
 
+.content {
+  margin-left: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 /* header and navigation */
 .header {
   background-color: black;
@@ -101,3 +109,29 @@ body {
 }
 
 /* locations */
+.locations {
+  background-image: url("./resources/images/img-locations-background.jpg");
+  background-color: blue;
+  width: 1200px;
+  height: 600px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.locations-content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location-address {
+  font-weight: normal;
+  opacity: 1;
+  background-color: black;
+  min-width: 300px;
+  margin: 0px 40px;
+}
